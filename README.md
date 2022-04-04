@@ -8,4 +8,10 @@
 
 ## Summary Statistics on Suspension Coils
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Given this information, we can evidence how Lot 3 does not meet this design specification. Individually, Lot 1 and 2 do meet them however, Lot 3 is not close to meet them. 
-<img width="512" alt="Screen Shot 2022-04-03 at 11 41 53 PM" src="https://user-images.githubusercontent.com/95834653/161475119-a84d24fd-e99a-408c-a9d9-4849a45b9d69.png">
+<img width="512" alt="Screen Shot 2022-04-03 at 11 41 53 PM" src="https://user-images.githubusercontent.com/95834653/161475119-a84d24fd-e99a-408c-a9d9-4849a45b9d69.png"><br />
+
+## T-Tests on Suspension Coils
+- After reviewing the T-Tests on suspension coils, we can evidence that Lot 3 is underperforming. We can see this after reviewing the p-value for lot 3. Notice that the p-value for lot 3 is statistically significant and therefore, we can reject our null hypothesis and we can say that lot 3 may be need to be discarded, or at least more closely evaluated. Lot 1 and 2 do not show statistical significance in this analysis, given their p-values of 1 and 0.6072, respectively. <br />
+<img width="470" alt="Screen Shot 2022-04-04 at 12 08 37 AM" src="https://user-images.githubusercontent.com/95834653/161477647-e2424a72-2d8d-4447-8e6e-9d6721371c99.png">
+
+
