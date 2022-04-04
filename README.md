@@ -12,6 +12,16 @@
 
 ## T-Tests on Suspension Coils
 - After reviewing the T-Tests on suspension coils, we can evidence that Lot 3 is underperforming. We can see this after reviewing the p-value for lot 3. Notice that the p-value for lot 3 is statistically significant and therefore, we can reject our null hypothesis and we can say that lot 3 may be need to be discarded, or at least more closely evaluated. Lot 1 and 2 do not show statistical significance in this analysis, given their p-values of 1 and 0.6072, respectively. <br />
-<img width="470" alt="Screen Shot 2022-04-04 at 12 08 37 AM" src="https://user-images.githubusercontent.com/95834653/161477647-e2424a72-2d8d-4447-8e6e-9d6721371c99.png">
+<img width="470" alt="Screen Shot 2022-04-04 at 12 08 37 AM" src="https://user-images.githubusercontent.com/95834653/161477647-e2424a72-2d8d-4447-8e6e-9d6721371c99.png"> <br />
 
-
+## Study Design: MechaCar vs Competition
+- Some metrics to tests in a statistical analysis would be the following:
+  -  MPG, given the fact thta people now enjoy ridesharing given the fact that turns out to be cheaper than owning a car.
+  -  HorsePower, for car lovers.
+- Null and Alternative Hypothesis
+  - H_0: There is no statistical difference between the competition's MPG and horsepower and MechaCar's.
+  - H_a: MechaCar's MPG and horsepower indicators are significantly superior to the competition's
+- Statistical test to use in the comparison
+  - I would reccomend performing a t-test to compare MechaCar's dataset with the competitors. The t-test would show statistically if the differences between MechaCar and the competitors are significantly and statistically different.
+- Data Needed:
+  - We would need a MPG column, horse power column and a column with the manufacturer (MechaCar or the competitor)
